@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(9k-RPmcnxYEPm8CNFsH2gg.woff) format('woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background: url("../images/bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+body {
+    font: 16px Lato;
+}
+.wrapper.tables {
+    bottom: 0;
+    height: 410px;
+    left: 0;
+    margin: auto;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 820px;
+}
+.table {
+    background: url("../images/box.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    margin: 0 20px 0 0;
+    min-height: 410px;
+    text-align: center;
+    width: 260px;
+}
+.table.last {
+    margin: 0;
+}
+.table .header {
+    background: url("../images/bg-h.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    height: 120px;
+    line-height: 80px;
+}
+.table.premium .header {
+    background-position: center top;
+}
+.table.elite .header {
+    background-position: right center;
+}
+.table .header .title {
+    background: url("../images/bg-h-t.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    line-height: 40px;
+    text-transform: uppercase;
+}
+.table .header .price h1 {
+    display: inline;
+}
+.table .body .func {
+    border-bottom: 1px solid #EBECED;
+    line-height: 50px;
+}
+.table .body .func .amount {
+    color: #C2C2C2;
+    margin: 0 5px 0 0;
+}
+.table .footer .btn {
+    background: url("../images/btn.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    color: #FFFFFF;
+    font: bold 16px/50px Lato;
+    margin: 15px 0 0;
+    text-transform: uppercase;
+    width: 220px;
+}
+
